@@ -10,7 +10,6 @@ header {
 	width: 275px;
 	padding: 20px;
 	margin-left: 50px;
-	margin-bottom: 20px;
 	color: #ffffff;
 	background: #4aaaa5;
 	font-size: 25px;
@@ -23,7 +22,9 @@ a {
 }
 
 .nav {
+	text-decoration: none;
 	color: #777777;
+	padding-top: 20px;
 	padding-right: 10px;
 	float: right;
 	font-size: small;
@@ -32,6 +33,10 @@ a {
 .link {
 	float: left;
 	padding: 5px;
+}
+
+.linkimg {
+	float: left;
 }
 
 .clearfix {
@@ -46,27 +51,37 @@ a {
 	border-color: #cccccc;
 }
 
-.main {
-	background-image: url(assets/images/vintage-concrete.png);
+#main {
+	padding: 20px;
+	border: 2px solid black;
+	background-color: blue;
+	/* background-image: url(assets/images/vintage-concrete.png); */
 }
 
 #about {
-
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding: 20px;
 }
 
 #mypic {
-
+	margin: 20px;
+	float: left;
 }
 
 #contact {
+	margin-right: 50px;
+	float: right;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	text-align: center;
-	height: 100px;
-	width: 200px;
+	width: 270px;
 }
 
-#footer {
+.footer {
+	border-top: 5px solid #4aaaa5;
 	padding: 30px;
 	width: 100%;
 	background-color: #666666;
