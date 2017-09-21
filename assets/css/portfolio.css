@@ -1,0 +1,40 @@
+.h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: normal;
+	padding: 10px;
+	color: #ffffff;
+	background: #4aaaa5;
+	border: 1px solid #4aaaa5;
+	font-size: medium;
+	text-align: center;
+	height: 17px;
+}
+
+.h1:hover {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: normal;
+	padding: 10px;
+	color: #4aaaa5;
+	background: #ffffff;
+	border: 1px solid #4aaaa5;
+	font-size: medium;
+	text-align: center;
+	height: 17px;
+	cursor: pointer;
+}
+
+.placeholder {
+	height: 290px;
+	width: 290px;
+	margin: 15px;
+	display: inline-grid;
+}
+
+.projectimg {
+	width: 100%;
+	display: block;
+}
+
+#projects {
+	
+}

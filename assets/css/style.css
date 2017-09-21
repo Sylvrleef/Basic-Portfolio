@@ -18,58 +18,6 @@ header {
 	text-align: center;
 }
 
-form {
-	padding: 20px;
-	color: #777777;
-	width: 650px;
-	float: left;
-	background-color: #ffffff;
-}
-
-input[type=text], select {
-    width: 100%;
-    padding: 15px 20px;
-    margin: 10px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-textarea {
-	width: 100%;
-    height: 150px;
-    padding: 15px 20px;
-    margin: 10px 0;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-}
-
-input::placeholder {
-	color: #C0C0C0;
-}
-
-input[type=submit] {
-    background-color: #4aaaa5;
-    border: 1px solid #4aaaa5;
-    color: #ffffff;
-    padding: 5px 10px;
-    height: 30px;
-    width: 85px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #ffffff;
-    border: 1px solid #4aaaa5;
-    color: #4aaaa5;
-    padding: 5px 10px;
-    height: 30px;
-    width: 85px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
 footer {
 	position: fixed;
    	left: 0;
@@ -82,31 +30,6 @@ footer {
 	text-align: center;
 	color: #ffffff;
 	font-size: 7px;
-}
-
-.h1 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: normal;
-	padding: 10px;
-	color: #ffffff;
-	background: #4aaaa5;
-	border: 1px solid #4aaaa5;
-	font-size: medium;
-	text-align: center;
-	height: 17px;
-}
-
-.h1:hover {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-weight: normal;
-	padding: 10px;
-	color: #4aaaa5;
-	background: #ffffff;
-	border: 1px solid #4aaaa5;
-	font-size: medium;
-	text-align: center;
-	height: 17px;
-	cursor: pointer;
 }
 
 .h2 {
@@ -143,25 +66,6 @@ footer {
 	font-size: small;
 }
 
-.link {
-	float: left;
-	padding: 0 5px;
-	height: 50px;
-	width: 50px;
-}
-
-.placeholder {
-	height: 290px;
-	width: 290px;
-	margin: 15px;
-	display: inline-grid;
-}
-
-.projectimg {
-	width: 100%;
-	display: block;
-}
-
 .clearfix {
 	clear: both;
 	overflow: auto;
@@ -180,81 +84,6 @@ footer {
 	margin: 30px 0 0 480px;
 }
 
-#linkgroup {
-	margin-left: 30px;
-}
-
-#stackoverflow {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    display: inline-block;
-    }
-
-#stackoverflow:hover .img-bottom {
-	display: none;
-}
-
-#stackoverflow .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    }
-
-#stackoverflow:hover .img-top {
-    display: inline;
-    }
-
-#github{
-	margin-left: 10px;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    display: inline-block;
-    }
-
-#github:hover .img-bottom {
-	display: none;
-}
-
-#github .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    }
-
-#github:hover .img-top {
-    display: inline;
-    }
-
-#linkedin {
-	margin-left: 10px;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    display: inline-block;
-    }
-
-#linkedin:hover .img-bottom {
-	display: none;
-}
-
-#linkedin .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    }
-
-#linkedin:hover .img-top {
-    display: inline;
-    }
-
 #title {
 	width: 100%;
 	background-color: #ffffff;
@@ -268,22 +97,12 @@ footer {
 }
 
 #info {
+	padding: 20px;
 	width: 650px;
 	float: left;
 	background-color: #ffffff;
 	border-color: #dddddd;
 	padding: 0 20px;
-	clear:both;
-	overflow:auto;
-}
-
-#mypic {
-	margin-right: 20px;
-	float: left;
-}
-
-#projects {
-	
 }
 
 #connect {
