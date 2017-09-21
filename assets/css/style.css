@@ -72,6 +72,20 @@ input[type=submit] {
     font-size: 15px
 }
 
+footer {
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
+	border-top: 5px solid #4aaaa5;
+	padding: 30px;
+	height: 50px
+	width: 100%;
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	font-size: 7px;
+}
+
 .nav {
 	text-decoration: none;
 	color: #C0C0C0;
@@ -106,6 +120,19 @@ input[type=submit] {
 
 #linkgroup {
 		margin-left: 40px;
+}
+
+#stackoverflow {
+	background-image: url("../images/StackOverflow.png") no-repeat;
+	display: inline-block;
+}
+
+#linkedin {
+
+}
+
+#github {
+
 }
 
 #title {
@@ -145,14 +172,3 @@ input[type=submit] {
 	width: 270px;
 	height: 150px;
 }
-
-#footer {
-	border-top: 5px solid #4aaaa5;
-	padding: 30px;
-	width: 100%;
-	background-color: #666666;
-	text-align: center;
-	color: #ffffff;
-	font-size: 7px;
-}
-
