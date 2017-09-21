@@ -28,8 +28,25 @@ h2 {
 h3 {		
 	padding-bottom: 20px;
 	color: #4aaaa5;
-	border-bottom: 3px solid #dddddd;
+	border-bottom: 2px solid #dddddd;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+form {
+	padding: 20px;
+	color: #777777;
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 
 .nav {
@@ -53,8 +70,8 @@ h3 {
 }
 
 #portfolio {
-	border-right: 2px solid #DCDCDC;
-	border-left: 2px solid #DCDCDC;
+	border-right: 2px solid #f7f4f4;
+	border-left: 2px solid #f7f4f4;
 	padding: 0 20px;
 	margin-right: 20px;
 }
@@ -77,6 +94,7 @@ h3 {
 #main {
 	margin-left: 80px;
 	padding: 20px;
+	color: #777777;
 }
 
 #about {
