@@ -1,4 +1,4 @@
-.h1 {
+.portfolio_heading {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: normal;
 	padding: 10px;
@@ -8,9 +8,14 @@
 	font-size: medium;
 	text-align: center;
 	height: 17px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
 }
 
-.h1:hover {
+.portfolio_heading:hover {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: normal;
 	padding: 10px;
@@ -21,6 +26,11 @@
 	text-align: center;
 	height: 17px;
 	cursor: pointer;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
 }
 
 .placeholder {
@@ -28,13 +38,17 @@
 	width: 290px;
 	margin: 15px;
 	display: inline-grid;
+	position: relative;
 }
 
 .projectimg {
-	width: 100%;
+	height: 290px;
+	width: 290px;
 	display: block;
+
 }
 
 #projects {
-	
+	padding-bottom: 40px;
+	margin-bottom: 50px;	
 }

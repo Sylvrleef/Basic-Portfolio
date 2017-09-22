@@ -1,10 +1,9 @@
 form {
-	padding: 20px;
 	width: 650px;
 	float: left;
 	background-color: #ffffff;
 	border-color: #dddddd;
-	padding: 0 20px;
+	padding: 0 20px 30px;
 }
 
 input[type=text], select {
