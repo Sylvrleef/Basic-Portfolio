@@ -3,30 +3,24 @@
 	font-weight: normal;
 	padding: 10px;
 	color: #ffffff;
-	background: #4aaaa5;
-	border: 1px solid #4aaaa5;
+	background: #3c0f47;
+	border: 1px solid #3c0f47;
 	font-size: medium;
 	text-align: center;
 	height: 17px;
 	position: absolute;
-<<<<<<< HEAD
 	top: 0px;
 	left: 0px;
 	right: 0px;
-=======
-	left: 0px;
-	right: 0px;
-	bottom: 10px;
->>>>>>> master
 }
 
 .portfolio_heading:hover {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: normal;
 	padding: 10px;
-	color: #4aaaa5;
+	color: #3c0f47;
 	background: #ffffff;
-	border: 1px solid #4aaaa5;
+	border: 1px solid #3c0f47;
 	font-size: medium;
 	text-align: center;
 	height: 17px;

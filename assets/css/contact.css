@@ -29,8 +29,8 @@ input::placeholder {
 }
 
 input[type=submit] {
-    background-color: #4aaaa5;
-    border: 1px solid #4aaaa5;
+    background-color: #3c0f47;
+    border: 1px solid #3c0f47;
     color: #ffffff;
     padding: 5px 10px;
     height: 30px;
@@ -41,8 +41,8 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #ffffff;
-    border: 1px solid #4aaaa5;
-    color: #4aaaa5;
+    border: 1px solid #3c0f47;
+    color: #3c0f47;
     padding: 5px 10px;
     height: 30px;
     width: 85px;
