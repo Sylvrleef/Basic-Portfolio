@@ -26,15 +26,9 @@
 	height: 17px;
 	cursor: pointer;
 	position: absolute;
-<<<<<<< HEAD
 	top: 0px;
 	left: 0px;
 	right: 0px;
-=======
-	left: 0px;
-	right: 0px;
-	bottom: 10px;
->>>>>>> master
 }
 
 .placeholder {
